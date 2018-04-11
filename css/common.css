@@ -1,0 +1,111 @@
+*{margin: 0;padding: 0;list-style: none;}
+        /* html,body{width:100%;overflow-x:hidden;} */
+        body{font-family: Arial,"微软雅黑",Helvetica,sans-serif;background: rgb(243,243,243)}
+        a{text-decoration:none;}
+        .hearder1{background: white;}
+        #nav_hearder{height: 53px;width: 815px;;margin:0 auto;background: white}
+        
+        .left{float: left;}
+        .left .logo{width:61px;height: 39px;background: rgb(245,0,0);margin-top: 10px;font-size: 15px;border-radius: 3px;
+        line-height: 39px;color: white;text-align: center;float: left;font-weight: bold}
+
+        .logo_left{height: 30px;float: left;padding-top: 14px;padding-left:10px;}
+        .logo_left .top{height: 17px;font-size: 17px;line-height: 17px;font-weight:bold;letter-spacing:2px}
+        .logo_left .bottom{font-size: 10px;font-weight: bold;padding-top: 2px;}
+
+        .center{float: left;margin-left: 25px;}
+        .center ul li{float: left;padding-top: 22px;padding-right: 19px;font-size: 14px;}
+        .center ul li a{color: black}
+        .center .redCol{color:rgb(255,41,36)}
+
+        .right{float:right;}
+        .right .image{padding-top:18px;float: left;}
+        .right .image img{width: 22px;background: no-repeat}
+        .right .userright{padding-left:3px;padding-top:20px;float: left;font-size: 12px;font-weight: bold}
+        .userright .username{display: inline-block;}
+        .userright .biaoqian{padding-left:2px;display: inline;}
+        .message{display: inline;}
+		.message img{width:13px;}
+        .right span{padding-right: 6px;}
+        .exit{display: inline;}
+        #fengexian{border-bottom: 2px rgb(239,83,44) solid;}
+/*中间部分*/
+
+        #content{background: rgb(243,243,243);width: 100%;height: 500px;}
+        #content .top{height: 32px;width: 815px;;margin:0 auto;font-size: 10px;}
+        .top .top_left{float: left;}
+        .top_left .kewen{float: left;margin-right: 10px;font-weight: bold;line-height: 32px;}
+        .top_left .keshi{border: 1px solid rgb(244,120,87);float: left;height: 14px;width:66px;margin-top: 8px;line-height: 14px}
+        .top_left .keshi .keshizuo{float: left;margin-right: 3px;}
+        .top_left .keshi ul li{display: none;padding-left:7px;}
+        .top_left .keshi .keshiyou{float: left;}
+         .top .top_right{float: right;line-height: 32px;}
+         .top_left .addkeshi{padding-left:7px;border: 1px solid rgb(244,120,87)/*rgb(241,180,163)*/;float: left;height: 14px;width:40px;margin-top: 8px;line-height: 14px}
+
+
+         /* 主要部分 */
+         .content_main{width:815px;margin:0 auto;background: rgb(243,243,243)}
+         .content_main_left{float: left;width:568px;margin-right: 10px;background: white}
+         .content_main_left .main_nav{height: 62px;display: flex;width: 568px;background: white;border-bottom: 9px solid rgb(243,243,243)}
+         .content_main_left .main_nav .flex1{flex:1}
+
+         .nav1{height: 38px;line-height: 38px;}
+         .nav1_1{margin-left: 52px;margin-right: 4px;margin-top:13px}
+         .imgs{height: 38px;float: left;}
+         
+         .keqian{font-size: 12px;float: left;}
+         .content_main_left .main_nav .suxian{margin-top:13px;margin-bottom:12px;border-right: 1px solid rgb(246,246,246)}
+         .content_main_right{float:right;}
+
+         .neirong{background: white;margin-left: 15px;}
+         .neirong1{height: 38px;}
+         .neirong1_left{float: left;}
+         .neirong1 strong, .neirong1 span{font-size:10px;padding-top:18px;display: inline-block;line-height: 10px;}
+         .neirong1 span{color: rgb(182,179,182)}
+         .neirong1_right{height: 26px;float: right;padding-top: 6px;margin-right: 14px;}
+         .read{width:77px;border: 3px solid rgb(255,154,54);height:20px ;float: left;margin-right: 7px;}
+         .read1{height: 18px;float: left;padding-top:1px;padding-left: 4px;}
+         .read2{line-height: 18px;font-size: 12px;float: left;color: rgb(255,154,54);padding-left: 2px;padding-top: 2px;}
+         .read1 img{height:18px}
+         .read span{line-height: 20px;}
+         .share{width:77px;border: 3px solid rgb(59,174,246);height:20px ;float: right;}
+         .share2{color: rgb(59,174,246)}
+
+         .ziyuan {width: 237px;}
+         .ziyuan .z1{background: rgb(251,98,30);height: 34px;width:237px; }
+         .ziyuan .z1 h3{font-size: 12px;color: white;padding-left: 11px;padding-top: 13px;line-height: 12px;display: inline-block}
+         .ziyuan .z1 .b1,.ziyuan .z1 .b2{background: rgb(251,98,30);border: white 1px solid;border-radius: 1px;color: white;font-size: 8px;}
+        
+        .b1{float: right;margin-right:12px;margin-top:8px;}
+        .b2{float: right;margin-right:12px;margin-top:8px;}
+         .xuanze{padding-left:12px; height: 40px;border-bottom: 2px solid rgb(243,243,243);background: white;line-height: 40px;font-size: 11px}
+        .zzz{float: left;}
+         .xuanzekuang{height: 16px;background:rgb(251,98,30);margin-right: 12px;border-radius: 2px;
+            font-size:10px;text-align: center; width:44px;float: right;margin-top:13px;line-height: 16px;color: white}
+        
+        .tuijian{background: yellow;margin-top: 12px;width: 237px;}
+        .t1{background: rgb(251, 170, 30);height: 34px;margin-top: 12px;}
+        .t1 .t1_1{font-size: 12px;color: white;padding-left: 11px;padding-top: 13px;line-height: 12px;float: left;}
+        .t1 .t1_2 {height: 22px;padding-top:7px;float:right; margin-right: 12px;}
+        
+        .t2{background: white}
+        .t2 ul li{height: 52px;border-bottom: 2px solid rgb(243,243,243)}
+        .t2 ul li .t2_1{float: left;height: 35px;padding-top:9px;padding-left: 11px;padding-right: 6px;}
+        
+        .t2 ul li .t2_2{float: left;width: 120px;height: 26px;margin-top: 13px;}
+        .t2_2 h3{font-weight: bold;font-size: 10px;}
+        .t2_2 span{font-size: 8px;line-height: 8px}
+
+        .t2_3{float: right;background: rgb(251, 170, 30);margin-top:19px;}
+
+        .main_book{width: 537px;overflow-x: hidden;overflow-y: scroll;height: 377px;}
+        .main_book ul li{height: 27px;margin-bottom: 8px;background: rgb(247,249,250);position: relative;}
+        .main_book ul li h2{display: inline-block;font-size: 9px;height:27px;vertical-align: middle;
+                padding-left: 19px;}
+        
+        .main_book ul li .m1{margin-left: 15px; display: inline-block;padding-top: 3px;padding-right: 10px;}
+        .main_book ul li span{ display: inline-block; font-size: 11px;vertical-align: top;padding-top: 5px;font-weight: bold}
+
+        .main_book ul li .m2{height: 13px;position: absolute;top:8px;right:7px;}
+
+        .fengexian2{border-bottom: 2px solid rgb(243,243,243);margin:0 15px 8px 0;}
